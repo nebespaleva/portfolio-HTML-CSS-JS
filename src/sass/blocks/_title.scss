@@ -1,0 +1,17 @@
+.title {
+    font-weight: bold;
+    color: $text-color;
+    font-size: 36px;
+    line-height: 60px;
+    &_block {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &_header {
+        font-size: 48px;
+    }
+    &_descr {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
