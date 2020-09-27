@@ -23,8 +23,12 @@
         color: $text-color;
         font-weight: bold;
         &:hover {
-            color: $text-color;
+            color: #fff;
             text-decoration: none;
         }
+    }
+    .btn:hover {
+        box-shadow: 1px 1px 5px 1px $main-color;
+        color: #ffffff;
     }
 }
